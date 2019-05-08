@@ -1,0 +1,84 @@
+  body {
+    background:rgb(68, 83, 94);
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pageholder {
+	width:50%;
+	min-width:400px;
+	margin:3em auto;
+}
+
+
+input[type="submit"] {
+    background: #ffffff;
+    background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+    border-radius: 5px;
+    padding:10px 20px;
+    border:none;
+    cursor: pointer;
+}
+
+.singlecomment {
+	margin:2em 0;
+	padding:2em 1em;
+	background:#eee;
+	border-radius: 5px;
+	border:solid 1px #ccc;
+}
+
+.singlecomment label{
+	display: inline-block;
+	padding:5px 20px;
+	background:#e0e0e0;
+}
+
+.singlecomment div {
+	padding: 2em 10em 2em 10em;
+}
+
+h2 {
+	font-size:x-large;
+	color:#ccc;
+	border-bottom:solid 5px #bbb;
+	margin-top:3em;
+}
+
+#commentpanel {
+	padding:1em;
+}
+
+.formline {
+	padding:2em 0;
+}
+
+.formline label {
+	width:200px;
+    display: block;
+	padding:10px 20px;
+	background:#999;
+	color:#eee;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-bottom: .5em;
+}
+
+.formline input, .formline textarea {
+	border-radius: 3px;
+	background: #fff;
+	border:solid 1px #333;
+	font-size:large;
+	padding:5px 10px;
+	box-shadow: inset 10px 10px 31px -19px rgba(0,0,0,0.4);
+	font-family: 'Courier New', sans-serif;
+}
+
+.formline input {
+	width:50%;
+}
+
+ .formline textarea {
+ 	width:100%;
+ 	height:100px;
+ }
